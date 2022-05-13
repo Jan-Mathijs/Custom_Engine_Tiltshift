@@ -1,0 +1,20 @@
+﻿/* SIE CONFIDENTIAL
+PlayStation(R)4 Programmer Tool Runtime Library Release 07.008.001
+* Copyright (C) 2013 Sony Interactive Entertainment Inc.
+*/
+
+#include "FlatShader.h"
+
+SamplerState sampler : register(s0);
+Texture2D texture : register( t0 );
+
+struct VS_OUTPUT
+{
+	float4 Position : S_POSITION;
+	float2 TexCoords : TEXCOORD0;
+};
+
+float4 main( VS_OUTPUT In ) : S_TARGET_OUTPUT
+{
+	return texture.Sample(sampler, In.TexCoords.xy);
+}

@@ -1,0 +1,31 @@
+﻿/* SIE CONFIDENTIAL
+PlayStation(R)4 Programmer Tool Runtime Library Release 07.008.001
+* Copyright (C) 2013 Sony Interactive Entertainment Inc.
+*/
+
+#include "FlatShader.h"
+
+struct VS_OUTPUT
+{
+	float4 Position : S_POSITION;
+	float2 TexCoords : TEXCOORD0;
+};
+
+struct Vertex
+{
+	float2 Pos;
+	float2 TexCoord;
+};
+
+struct VS_INPUT
+{
+    Vertex Vert : POSITION;
+};
+
+VS_OUTPUT main( VS_INPUT input )
+{
+	VS_OUTPUT Output = (VS_OUTPUT)0;
+	Output.Position = mul(float4(input.Vert.Pos.xy, 0, 1), u_MVP);
+	Output.TexCoords = input.Vert.TexCoord;
+	return Output;    
+}

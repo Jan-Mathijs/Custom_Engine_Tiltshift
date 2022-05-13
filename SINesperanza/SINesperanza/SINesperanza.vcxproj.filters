@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Graphics\GLRenderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\GLTexture.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Renderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\stb_image.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Window.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Core.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Systems.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\WorldManager.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Texture.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Systems\AISystem.cpp">
+      <Filter>Source\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Systems\SplineSystem.cpp">
+      <Filter>Source\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Sprite.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Events\Delegate.cpp">
+      <Filter>Source\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Events\EventArgs.cpp">
+      <Filter>Source\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Events\EventMessenger.cpp">
+      <Filter>Source\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Events\InputHandler.cpp">
+      <Filter>Source\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\IController.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\WinController.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\InputWindows.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\Input.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Systems\TireSystem.cpp">
+      <Filter>Source\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\common\b2_block_allocator.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_body.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_broad_phase.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_chain_circle_contact.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_chain_polygon_contact.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_chain_shape.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_circle_contact.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_circle_shape.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_collide_circle.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_collide_edge.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_collide_polygon.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_collision.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_contact.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_contact_manager.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_contact_solver.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_distance.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_distance_joint.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\common\b2_draw.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_dynamic_tree.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_edge_circle_contact.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_edge_polygon_contact.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_edge_shape.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_fixture.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_friction_joint.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_gear_joint.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_island.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_joint.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\common\b2_math.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_motor_joint.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_mouse_joint.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_polygon_circle_contact.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_polygon_contact.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_polygon_shape.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_prismatic_joint.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_pulley_joint.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_revolute_joint.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\rope\b2_rope.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\common\b2_settings.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\common\b2_stack_allocator.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\collision\b2_time_of_impact.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\common\b2_timer.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_weld_joint.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_wheel_joint.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_world.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\Box2d\dynamics\b2_world_callbacks.cpp">
+      <Filter>Headers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Systems\AINode.cpp" />
+    <ClCompile Include="Source\Core\AINodeManager.cpp" />
+    <ClCompile Include="Source\Core\FileLoadercpp.cpp" />
+    <ClCompile Include="Source\ContactListener.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\Core\Core.h">
+      <Filter>Headers\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Core\EntryPoint.h">
+      <Filter>Headers\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Core\Systems.h">
+      <Filter>Headers\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Core\WorldManager.h">
+      <Filter>Headers\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Graphics\GLTexture.h">
+      <Filter>Headers\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Graphics\GLRenderer.h">
+      <Filter>Headers\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Graphics\Window.h">
+      <Filter>Headers\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Graphics\Renderer.h">
+      <Filter>Headers\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Graphics\Texture.h">
+      <Filter>Headers\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Components\AIComponent.h">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Systems\AISystem.h">
+      <Filter>Headers\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Components\SplineComponent.h">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Systems\SplineSystem.h">
+      <Filter>Headers\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Graphics\Sprite.h">
+      <Filter>Headers\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Components\SpriteComponent.h">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Events\Delegate.h">
+      <Filter>Headers\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Events\EventArgs.h">
+      <Filter>Headers\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Events\EventMessenger.h">
+      <Filter>Headers\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Events\InputHandler.h">
+      <Filter>Headers\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Events\KeyCodes.h">
+      <Filter>Headers\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Input\ControllerState.h">
+      <Filter>Headers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Input\IController.h">
+      <Filter>Headers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Input\WinController.h">
+      <Filter>Headers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Components\TransformComponent.h">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Input\Input.h">
+      <Filter>Headers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Input\InputWindows.h">
+      <Filter>Headers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Components\OrthoCameraComponent.h">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Components\PhysicsComponent.h">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Components\TireComponent.h">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Components\TireSupComponent.h">
+      <Filter>Headers\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Systems\TireSystem.h">
+      <Filter>Headers\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_api.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_block_allocator.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_body.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_broad_phase.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\dynamics\b2_chain_circle_contact.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\dynamics\b2_chain_polygon_contact.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_chain_shape.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\dynamics\b2_circle_contact.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_circle_shape.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_collision.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_common.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_contact.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_contact_manager.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\dynamics\b2_contact_solver.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_distance.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_distance_joint.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_draw.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_dynamic_tree.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\dynamics\b2_edge_circle_contact.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\dynamics\b2_edge_polygon_contact.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_edge_shape.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_fixture.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_friction_joint.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_gear_joint.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_growable_stack.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\dynamics\b2_island.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_joint.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_math.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_motor_joint.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_mouse_joint.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\dynamics\b2_polygon_circle_contact.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\dynamics\b2_polygon_contact.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_polygon_shape.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_prismatic_joint.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_pulley_joint.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_revolute_joint.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_rope.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_settings.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_shape.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_stack_allocator.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_time_of_impact.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_time_step.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_timer.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_types.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_weld_joint.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_wheel_joint.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_world.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\b2_world_callbacks.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Box2d\box2d.h">
+      <Filter>Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Systems\AINode.h" />
+    <ClInclude Include="Header\Components\Tags.h" />
+    <ClInclude Include="Resources\Shaders\FlatShader.h">
+      <Filter>Resources\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Core\AINodeManager.h" />
+    <ClInclude Include="Header\Core\FileLoader.h" />
+    <ClInclude Include="Header\ContactListener.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\FragShaderTex.glsl">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\FragShaderLine.glsl">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\VertShaderLine.glsl">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\VertShaderPoint.glsl">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\VertShaderTex.glsl">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{b51055e3-0def-4e6c-aa30-10e465eb48fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Core">
+      <UniqueIdentifier>{baa2532b-1503-4e60-9853-b10c53776f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Graphics">
+      <UniqueIdentifier>{83abcf52-7d51-434e-9543-4742ce8c4fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3f22cf8a-dfea-4313-9519-b99b61074e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{956a7963-8a14-4f96-b22a-b04dbd22b6af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{7dc8cab6-6387-4cbd-a45e-9ebe01990e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{d5853935-dd1d-4ead-9f6a-f5c0ca125538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders">
+      <UniqueIdentifier>{21ec3f59-01f0-4974-8c93-622f0af56a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Physics">
+      <UniqueIdentifier>{fed015d1-fd93-4b4e-8e10-59a8cfa72427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Components">
+      <UniqueIdentifier>{7c672c8f-627a-4ccc-967d-f130750abc13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Systems">
+      <UniqueIdentifier>{7a2ccac9-3eb3-45c4-8483-81086716d085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Systems">
+      <UniqueIdentifier>{8ecb6e6a-64fe-4016-8f8d-36dc0513dd9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Events">
+      <UniqueIdentifier>{92c30462-cc4c-4051-8fde-442253feb7bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Events">
+      <UniqueIdentifier>{41caacb5-028f-4347-9739-ef7f28e93377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{5ef500cf-3f3b-4493-8d76-cba53aec32a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Input">
+      <UniqueIdentifier>{69409b71-9f40-484b-bfce-0b58881906d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <WavePsslc Include="Resources\Shaders\LineShader_p.pssl">
+      <Filter>Resources\Shaders</Filter>
+    </WavePsslc>
+    <WavePsslc Include="Resources\Shaders\LineShader_vv.pssl">
+      <Filter>Resources\Shaders</Filter>
+    </WavePsslc>
+    <WavePsslc Include="Resources\Shaders\TexShader_p.pssl" />
+    <WavePsslc Include="Resources\Shaders\TexShader_vv.pssl" />
+  </ItemGroup>
+</Project>
